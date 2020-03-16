@@ -4,6 +4,9 @@
   margin-bottom: 10px;
 }
 
+
+
+
 .bigbrand{
   font-size: 1.5em;
 }
@@ -35,4 +38,12 @@
   right: 0px;
 }
 
+.post{
+  border-style: solid;
+  border-color: gray;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
 
