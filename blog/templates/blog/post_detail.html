@@ -2,7 +2,7 @@
 
 {% block content %}
 
-
+<div class="detail-container">
         <h1 class='posttitle loader'>{{ post.title }}</h1>
 
         {% if post.published_date %}
@@ -46,6 +46,7 @@
   {% empty %}
       <p>No comments posted.</p>
   {% endfor %}
+</div>
 </div>
 
 {% endblock %}

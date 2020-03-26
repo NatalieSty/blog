@@ -4,6 +4,10 @@
   margin-bottom: 10px;
 }
 
+body {
+  background-color:powderblue; 
+}
+
 .bigbrand{
   font-size: 1.5em;
 }
@@ -11,6 +15,27 @@
 .centerstage{
   margin-left: auto;
   margin-right: auto;
+}
+
+.detail-container{
+  margin-left: auto;
+  background-color:white;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 10px;
+  width: 130%;
+  margin-bottom: 20px;
+  margin-left: 80px;
+}
+
+#over img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 50%;
+  
 }
 
 .postdate{
@@ -27,6 +52,7 @@
 .postcontent{
   font-family: Sen;
   font-size: 1.5em;
+
   
 }
 
@@ -35,4 +61,15 @@
   right: 0px;
 }
 
+.post{
+  border-style: solid;
+  border-color: gray;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 10px;
+  width: 130%;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  background-color:white;
+}
 

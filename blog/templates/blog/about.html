@@ -1,6 +1,12 @@
 {% extends "blog/base.html" %}
 {% block content %}
-<h1>About me</h1>
-<p>Thanks for visiting my blog! Check all this cool stuff about me!</p>
+<div class="detail-container">
+<h1 class='posttitle'>About me</h1>
+<div id="over" style=" width:100%; height:100%">
+{% load static %} <img src="{% static "assets/nat.JPG" %}" alt="Hi!" width="300" />
+</div>
 
+
+<p style="margin-top: 7px">My name is Natalie So and I love building web apps. This is my personal blog to record the process of my learnings. Feel free to check out my GitHub and LinkedIn!</p>
+</div>
 {% endblock %}
